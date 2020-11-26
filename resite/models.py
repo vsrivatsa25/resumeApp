@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib import admin
 
 class Contact(models.Model):
     name = models.CharField(max_length=20)
@@ -7,3 +8,4 @@ class Contact(models.Model):
     message = models.CharField(max_length=1000)
     time = models.DateTimeField(auto_now_add=True)
 
+admin.site.register(Contact)
