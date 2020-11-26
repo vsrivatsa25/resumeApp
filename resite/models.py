@@ -9,6 +9,6 @@ class Contact(models.Model):
     time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name +", "+ self.time
+        return self.name +", "+ str(self.time)
 
 admin.site.register(Contact)
