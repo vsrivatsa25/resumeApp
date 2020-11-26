@@ -1,0 +1,501 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Vrishab Srivatsa</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <link href="https://avatars1.githubusercontent.com/u/35374094?s=460&u=226f000913b1719f23c94375f67e3e90ff505b1f&v=4" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="{% static 'vendor/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio - v2.2.0
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body id="page-top">
+
+  <!-- ======= Header/ Navbar ======= -->
+{% load bootstrap4 %}
+  {% bootstrap_messages %}
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">VVS</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Intro Section ======= -->
+  <div id="home" class="intro route bg-image" style="background-image: url({% static 'img/capture.png' %});">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+<h1 class="intro-title mb-4">Welcome!</h1>
+          <h1 class="intro-subtitle" style="color:white;"><b>This is Vrishab Srivatsa.</b></h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Python Developer, Student @ VIT-Vellore, Cyber Security Enthusiast</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="{% static 'img/dp.jpg' %}" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Vrishab Srivatsa</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Python Developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>vsrivatsa25@gmail.com</span></p>
+                        <p><span class="title-s">Find me: </span>Bangalore, IN<span></span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>PYTHON3</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%; background-color:#fd7e14" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>ALGORITHM DESIGN AND ANALYSIS</span> <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%;background-color:#fd7e14" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>MYSQL</span> <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%;background-color:#fd7e14" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>C/C++</span> <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%;background-color:#fd7e14" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                      <span>HTML5/CSS3</span> <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%;background-color:#fd7e14" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                      <span>CYBER SECURITY & CRYPTOGRAPHY</span> <span class="pull-right"></span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%;background-color:#fd7e14" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Hey there!
+I'm Vrishab Srivatsa. A 20 year old, currently located in Vellore, Tamil Nadu, India. Pursuing B. Tech in Computer Science and Engineering and specialising in Information Security from VIT Vellore (Batch of 2022). Interested in a career towards working in the information security domain.
+An enthusiastic programmer and problem solver. Originally from Bengaluru, Karnataka but grew up travelling across several locations worldwide.
+Recently worked as an Intern at IIT-Patna as web developer for a healthcare application. Open to Internship/Freelance work.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="service" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <p class="subtitle-a">
+                What I can deliver for your business.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-monitor"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Cyber Security and Cryptography</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-code-working"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Software/Web Development</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Machine Learning Solutions</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url({% static 'img/counters-bg.jpg' %})">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">8</p>
+                <span class="counter-text">ACADEMIC PROJECTS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">3</p>
+                <span class="counter-text">YEARS OF PROGRAMMING EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-ios-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">1</p>
+                <span class="counter-text">INTERNSHIPS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">8.85</p>
+                <span class="counter-text">CURRENT CGPA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                PROJECTS
+              </h3>
+              <p class="subtitle-a">
+                A few of my favourite projects on display!
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://img.freepik.com/free-vector/set-doctor-patient-cartoon-characters_36082-522.jpg?size=626&ext=jpg" data-gall="portfolioGallery" class="venobox">
+                <div class="work-img">
+                  <a href="https://github.com/vsrivatsa25/Image-Encryption-and-Authentication"><img src="https://img.freepik.com/free-vector/set-doctor-patient-cartoon-characters_36082-522.jpg?size=626&ext=jpg" alt="" class="img-fluid">
+                  </a></div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">COVID HOSPITAL HELPER</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Assist hospitals in allocating beds for patients, prioritizing patients with underlying conditions, illnesses or anyone more vulnerable to the virus, using a random forest regressor model trained with COVID-19 patient data set from the Mexican Govt.
+</span><span class="w-date"><br>August, 2020</span><br>
+                        <a href="https://covidhospitalhelper.herokuapp.com/">Visit Website</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://images.vexels.com/media/users/3/124730/raw/0813ca406b3f8a95056800f34bb93bb8-social-network-illustration.jpg" data-gall="portfolioGallery" class="venobox">
+                <div class="work-img">
+                  <a href="https://sociohub-vrishab.herokuapp.com/"><img src="{% static 'img/sociohublogo.png' %}" alt="" class="img-fluid">
+                </a>
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">SocioHub</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">A Novel Social Networking Application to connect people from similar walks of life, with features like Content Filtering, Smart Suggestions and Connecting with Users. Runs on a Django Backend. Click to visit website!</span><span class="w-date"><br><br>August, 2020</span>
+                        <br><a href="https://sociohub-vrishab.herokuapp.com/">Visit Website</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="" data-gall="portfolioGallery" class="venobox">
+                <div class="work-img">
+                  <a href="https://github.com/vsrivatsa25/Image-Encryption-and-Authentication"><img src="https://images.ctfassets.net/9ijwdiuuvngh/5K4AedH960A824yg6CQyCi/8b3ee8ad5e63e6d50f78b9d7aa749669/Header_Encryption.png" alt="" class="img-fluid">
+                  </a></div><br><br>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Image Encryption and Authentication</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">Designed a custom image encryption and authentication algorithm based on Chaotic
+Mapping and perceptual hashing, implemented in the form of a Python GUI. Similar to the shuffling and
+reassembly of a Rubik’s cube, yet randomized and unique to
+every secret key.</span><br><span class="w-date">August, 2019</span>
+                        <br><a href="https://github.com/vsrivatsa25/Image-Encryption-and-Authentication">Visit Repository</a>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url({% static 'img/overlay-bg.jpg' %})">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Get in touch!
+                      </h5>
+                    </div>
+                    <div>
+
+                      <form method="post" role="form" class="php-email-form">
+                        {% csrf_token %}
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" required name="name" class="form-control" id="id_name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" required class="form-control" name="email" id="id_email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" required class="form-control" name="subject" id="id_subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" required name="message" rows="5" id="id_message" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                              <div class="validate"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="more-info">
+                      <p class="lead">
+                        Interested to colloborate on a project? Want me to intern for your company? Or just wanna connect? You can also reach me on my socials
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="ion-ios-location"></span> Bangalore, India</li>
+                        <li><span class="ion-ios-telephone"></span><a href="https://wa.me/918296776590?text=Hi%21+I+went+through+your+portfolio+and+would+like+to+get+in+touch+with+you.">WhatsApp Me</a></li>
+                        <li><span class="ion-email"></span><a href="mailto:vsrivatsa25@gmail.com">Email Me</a></li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a target="_blank" href="http://facebook.com/vsrivatsa25"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                        <li><a target="_blank"  href="http://instagram.com/vsrivatsa25"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                        <li><a target="_blank"  href="http://twitter.com/vsrivatsa25"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                        <li><a target="_blank"  href="http://github.com/vsrivatsa25"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                          <li><a target="_blank"  href="https://www.linkedin.com/in/vsrivatsa25/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
