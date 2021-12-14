@@ -47,11 +47,6 @@
     }, 1000);
   });
 
-  /*--/ Star Counter /--*/
-  $('.counter').counterUp({
-    delay: 15,
-    time: 2000
-  });
 
   /*--/ Star Scrolling nav /--*/
   var mainNav_height = $('#mainNav').outerHeight() - 22;
@@ -118,10 +113,10 @@
     var typed_strings = $('.text-slider-items').text();
     var typed = new Typed('.text-slider', {
       strings: typed_strings.split(','),
-      typeSpeed: 80,
+      typeSpeed: 30,
       loop: true,
       backDelay: 1100,
-      backSpeed: 30
+      backSpeed: 20
     });
   }
 
