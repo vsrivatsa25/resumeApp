@@ -41,10 +41,27 @@
 </head>
 
 <body id="page-top">
+  <div class="splashBody">
+    <div class="splashScreen">
+        <div class="loadingContainer">
+            <div class="loadingBox">
+              {% with img_dir="img/quote"|add:img|add:".jpg" %}
+                <img src='{% static img_dir %}' class="splashLogo">
+                {% endwith %}
+                <div class="loadingBarContainer">
+                    <div class="loadingbar"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
 
   <!-- ======= Header/ Navbar ======= -->
 {% load bootstrap4 %}
   {% bootstrap_messages %}
+<div class="splashBehind" style="opacity: 0">
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">VVS</a>
@@ -221,7 +238,7 @@ Recently worked as an Intern at IIT-Patna as web developer for a healthcare appl
                 <span class="ico-circle"><i class="ion-stats-bars"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Data Visualization and Dashboards</h2>
+                <h2 class="s-title">Data Analytics and Dashboards</h2>
                 <p class="s-description text-center">
                 </p>
               </div>
@@ -230,7 +247,6 @@ Recently worked as an Intern at IIT-Patna as web developer for a healthcare appl
 
           </div>
         </div>
-      </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Counter Section ======= -->
@@ -266,8 +282,8 @@ Recently worked as an Intern at IIT-Patna as web developer for a healthcare appl
                 <span class="ico-circle"><i class="ion-ios-people"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2" class="counter purecounter">2</p>
-                <span class="counter-text">INTERNSHIPS COMPLETED</span>
+                <p data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="2" class="counter purecounter">13</p>
+                <span class="counter-text">MONTHS OF INTERNSHIP EXPERIENCE</span>
               </div>
             </div>
           </div>
@@ -541,6 +557,7 @@ every secret key.</span><br><span class="w-date">August, 2019</span>
 
   <!-- Template Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+  <script src="{% static 'js/splash_screen.js' %}"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

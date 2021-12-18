@@ -3,11 +3,17 @@ from .forms import ContactForm
 from django.views.generic.edit import FormView
 from django.contrib import messages
 from django.utils.translation import gettext_lazy as _
+import random
 
 class ContactView(FormView):
     template_name = 'index.html'
     form_class = ContactForm
     form = ContactForm
+
+    def get_context_data(self, **kwargs):
+        context = {}
+        context["img"] = str(random.randint(1, 10))
+        return context
 
     def form_valid(self, form):
         if self.request.method == 'POST':
