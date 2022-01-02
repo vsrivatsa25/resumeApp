@@ -1309,7 +1309,6 @@ body.visibleSplash {
 	overflow: hidden;
 }
 .loadingContainer {
-	width: 400px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1323,7 +1322,7 @@ body.visibleSplash {
 	opacity: 0;
 }
 .splashLogo {
-	width: 20rem;
+	width: 30rem;
 }
 .loadingBarContainer {
     width: 100%;
