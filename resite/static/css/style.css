@@ -120,6 +120,7 @@ a:hover {
 }
 
 /*--/ Sections /--*/
+
 .sect-4 {
   padding: 4rem 0;
 }
@@ -133,6 +134,7 @@ a:hover {
 }
 
 /*--/ Title s /--*/
+
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
@@ -140,6 +142,7 @@ a:hover {
 }
 
 /*--/ Title A /--*/
+
 .title-box {
   margin-bottom: 4rem;
 }
@@ -162,6 +165,7 @@ a:hover {
 }
 
 /*--/ Title Left /--*/
+
 .title-box-2 {
   margin-bottom: 3rem;
 }
@@ -181,6 +185,7 @@ a:hover {
 }
 
 /*------/ Box /------*/
+
 .box-pl2 {
   padding-left: 2rem;
 }
@@ -201,6 +206,7 @@ a:hover {
 }
 
 /*------/ Socials /------*/
+
 .socials {
   padding: 1.5rem 0;
 }
@@ -228,6 +234,7 @@ a:hover {
 }
 
 /*------/ Ul resect /------*/
+
 .ul-resect, .socials ul, .list-ico, .blog-wrapper .post-meta ul, .box-comments .list-comments, .widget-sidebar .list-sidebar, .widget-tags ul {
   list-style: none;
   padding-left: 0;
@@ -244,6 +251,7 @@ a:hover {
 }
 
 /*------/ Ico Circle /------*/
+
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -257,6 +265,7 @@ a:hover {
 }
 
 /*------/ Owl Carousel /------*/
+
 .owl-theme .owl-dots {
   text-align: center;
   margin-top: 18px;
@@ -287,6 +296,7 @@ a:hover {
 }
 
 /*--/ Scrolltop s /--*/
+
 .scrolltop-mf {
   position: relative;
   display: none;
@@ -312,6 +322,7 @@ a:hover {
 }
 
 /*------/ Back to top button /------*/
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -385,6 +396,7 @@ a:hover {
 }
 
 /*------/ Button /------*/
+
 .button {
   display: inline-block;
   padding: .3rem .6rem;
@@ -436,6 +448,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Nav Bar
 --------------------------------------------------------------*/
+
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
@@ -583,6 +596,7 @@ a:hover {
 }
 
 /*--/ Hamburger Navbar /--*/
+
 .navbar-toggler {
   position: relative;
 }
@@ -634,6 +648,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+
 .intro {
   height: 100vh;
   position: relative;
@@ -722,6 +737,7 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -761,6 +777,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -799,6 +816,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
+
 .counter-box {
   color: #fff;
   text-align: center;
@@ -829,6 +847,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
@@ -883,6 +902,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
 .testimonials .owl-carousel .owl-item img {
   width: auto;
 }
@@ -942,6 +962,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -1115,6 +1136,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Blog Single
 --------------------------------------------------------------*/
+
 .post-box,
 .form-comments,
 .box-comments,
@@ -1172,6 +1194,7 @@ a:hover {
 }
 
 /*------/ Comments /------*/
+
 .box-comments .list-comments li {
   padding-bottom: 40px;
 }
@@ -1216,6 +1239,7 @@ a:hover {
 }
 
 /*------/ Sidebar /------*/
+
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1298,6 +1322,7 @@ body {
 body.visibleSplash {
 	overflow: visible !important;
 }
+
 .splashScreen {
 	width: 100%;
  	height: 100vh;
@@ -1308,6 +1333,7 @@ body.visibleSplash {
 	border-bottom: 5px solid #333;
 	overflow: hidden;
 }
+
 .loadingContainer {
 	position: absolute;
 	top: 50%;
@@ -1316,14 +1342,17 @@ body.visibleSplash {
 	text-align: center;
 	overflow: hidden;
 }
+
 .loadingBox {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
 }
+
 .splashLogo {
 	width: 30rem;
 }
+
 .loadingBarContainer {
     width: 100%;
     background: rgba(238, 238, 238, 0.253);
@@ -1332,6 +1361,7 @@ body.visibleSplash {
     margin: 50px 0 0;
     overflow: hidden;
 }
+
 .loadingbar {
 	width: 100%;
 	height:10px;
@@ -1339,6 +1369,7 @@ body.visibleSplash {
 	position: absolute;
 	left: -100%;
 }
+
 .loadingCircle {
 	width: 75px;
 	height: 75px;
@@ -1349,6 +1380,7 @@ body.visibleSplash {
 	position: relative;
 	overflow: hidden;
 }
+
 .circleOuter {
 	width: 60px;
 	height: 60px;
@@ -1360,6 +1392,7 @@ body.visibleSplash {
 	transform: translate(-50%, -50%);
 	z-index: 2;
 }
+
 .circleLoader {
 	width: 75px;
 	height: 75px;
@@ -1371,6 +1404,7 @@ body.visibleSplash {
 	z-index: 1;
 	animation: rotateLoader 1.5s linear infinite;
 }
+
 @keyframes rotateLoader {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
@@ -1381,6 +1415,7 @@ body.visibleSplash {
 	width: 100%;
 	height: 100vh;
 }
+
 .splashBehindTwo {
 	background: #fff;
 	width: 100%;
