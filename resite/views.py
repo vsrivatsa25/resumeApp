@@ -3,6 +3,7 @@ from .forms import ContactForm
 from django.views.generic.edit import FormView
 from django.contrib import messages
 from django.utils.translation import gettext_lazy as _
+import datetime
 import random
 
 class ContactView(FormView):
@@ -13,6 +14,10 @@ class ContactView(FormView):
     def get_context_data(self, **kwargs):
         context = {}
         context["img"] = str(random.randint(1, 10))
+        today = datetime.datetime.now()
+        start_day = datetime.datetime(2020,12,7,00,00)
+        time_diff = start_day - today
+        context["exp_months"] = time_diff.months
         return context
 
     def form_valid(self, form):
