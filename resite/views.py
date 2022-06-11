@@ -16,8 +16,8 @@ class ContactView(FormView):
         context["img"] = str(random.randint(1, 10))
         today = datetime.datetime.now()
         start_day = datetime.datetime(2020,12,7,00,00)
-        time_diff = start_day - today
-        context["exp_months"] = time_diff.months
+        time_diff = today - start_day
+        context["exp_months"] = (time_diff.days/30)
         return context
 
     def form_valid(self, form):
