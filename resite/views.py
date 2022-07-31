@@ -4,7 +4,7 @@ from django.views.generic.edit import FormView
 from django.contrib import messages
 from django.utils.translation import gettext_lazy as _
 import random
-from datetime import datetime
+import datetime
 
 class ContactView(FormView):
     template_name = 'index.html'
