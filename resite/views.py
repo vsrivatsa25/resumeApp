@@ -3,7 +3,6 @@ from .forms import ContactForm
 from django.views.generic.edit import FormView
 from django.contrib import messages
 from django.utils.translation import gettext_lazy as _
-import datetime
 import random
 from datetime import datetime
 
